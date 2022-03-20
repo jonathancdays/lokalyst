@@ -18,7 +18,7 @@ export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
         <Layout>
-          <SEO title="Jonathan Days Social Media Project" />
+          <SEO title="Jonathan Days SEO Project" />
           <Banner />
           <KeyFeature />
           <ServiceSection />
