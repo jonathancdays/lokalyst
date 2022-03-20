@@ -6,10 +6,11 @@ import FeatureThumb from 'assets/core-feature.png';
 import shapePattern from 'assets/shape-pattern2.png';
 
 const data = {
-  subTitle: 'Core features',
-  title: 'Smart Jackpots that you may love this anytime & anywhere',
+  subTitle: 'Core Feature',
+  title: 'One of our core features is Voice Search',
   description:
-    'Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.',
+    'As of January 2018 there were an estimated 1 billion voice searches per month, and it is estimated to grow to become 50% of all searches by 2020.' + 
+    ' Virtual assistants such as Alexa, Google Assistant, SIRI, and Cortana all help modern businesses and consumers find information, take action, and solve problems. ',
   btnName: 'Get Started',
   btnURL: '#',
 };

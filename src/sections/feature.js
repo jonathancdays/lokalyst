@@ -12,40 +12,60 @@ const data = [
   {
     id: 1,
     imgSrc: Performance,
-    altText: 'Fast Performance',
-    title: 'Fast Performance',
+    altText: 'SEO Web Design',
+    title: 'SEO Web Design',
     text:
-      'Let’s just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world.',
+      'We will create a comprehensive website SEO strategy and manage the website launch to ensure the best possible outcome.',
   },
   {
     id: 2,
     imgSrc: Partnership,
-    altText: 'Pro Subscription',
-    title: 'Pro Subscription',
+    altText: 'Speed Optimization',
+    title: 'Speed Optimization',
     text:
-      'We believe it’s important for everyone to have access to software – especially when it comes to digital learning be navigated by keyboard and screen readers.',
+      'We can work with your existing developer or bring in our dev team to optimize your website’s speed performance.',
   },
   {
     id: 3,
     imgSrc: Subscription,
-    altText: 'Partnership deal',
-    title: 'Partnership deal',
+    altText: 'Pentaly Recovery',
+    title: 'Penalty Recovery',
     text:
-      'Let’s just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world.',
+      'Assess your site for penalties, address any identified issues',
   },
   {
     id: 4,
     imgSrc: Support,
-    altText: 'Customer Support',
-    title: 'Customer Support',
+    altText: 'Video SEO',
+    title: 'Video SEO',
     text:
-      'We believe it’s important for everyone to have access to software – especially when it comes to digital learning be navigated by keyboard and screen readers.',
+      'Align align unique large-scale platforms with your larger SEO and digital strategy.',
   },
 ];
 
 export default function Feature() {
   return (
-   <h1>Feature</h1>
+    <section sx={{variant: 'section.feature'}}>
+      <Container>
+        <SectionHeader
+        slogan= "Primary Features"
+        title= "What we can and will do for you"
+        />
+
+        <Grid sx={styles.grid}>
+          {data.map((item) =>
+            <FeatureCard 
+              key={item.id}
+              src={item.imgSrc}
+              alt={item.altText}
+              title={item.title}
+              text={item.text} 
+            />
+          )}
+        </Grid>
+      </Container>
+
+    </section>
   );
 }
 
