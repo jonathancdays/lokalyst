@@ -14,30 +14,53 @@ import Secure from 'assets/services/secure.svg';
 
 const data = {
   subTitle: 'our services',
-  title: 'Business Goals Achieved with Design',
+  title: 'Business Goals Achieved with SEO',
   features: [
     {
       id: 1,
       imgSrc: Smart,
-      altText: 'Smart Features',
-      title: 'Smart Features',
+      altText: 'On-Page SEO',
+      title: 'On-Page SEO',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'We will optimize individual web pages in order to rank you higher and earn more relevant traffic in search engines.',
     },
     {
       id: 2,
       imgSrc: Secure,
-      altText: 'Secure Contents',
-      title: 'Secure Contents',
+      altText: 'Off-Page SEO',
+      title: 'Off-Page SEO',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'We impact your rankings by telling search engines that your website is important to others on the web.',
     },
   ],
 };
 
 export default function ServiceSection() {
+  const handleClick = (e) => {
+    e.preventDefault();
+
+    setVideoOpen(true);
+  }
   return (
-    <h1>Service Section</h1>
+    <section sx={{ variant: 'section.services'}}>
+      <Container sx={styles.containerBox}>
+        <Box sx={styles.thumbNail}>
+          <Image src={ServiceThumb} alt="Thumbnail"/>
+            <Button
+              sx={styles.videobtn}
+              onClick={handleClick}
+              aria-label="Play Button"
+            >
+              <span>
+                <IoIosPlay />
+              </span>
+            </Button>
+            <Box sx={styles.shapeBox}>
+              <Image src={shapePattern} alt="shape pattern"/>
+            </Box>
+        </Box>
+      </Container>
+    </section>
   );
 }
 
