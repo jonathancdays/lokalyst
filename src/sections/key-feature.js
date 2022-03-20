@@ -12,40 +12,60 @@ const data = [
   {
     id: 1,
     imgSrc: Performance,
-    altText: 'Fast Performance',
-    title: 'Fast Performance',
+    altText: 'Drive Web Traffic',
+    title: 'Drive Web Traffic',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Increase organic traffic to your site.',
   },
   {
     id: 2,
     imgSrc: Partnership,
-    altText: 'Partnership deal',
-    title: 'Partnership deal',
+    altText: 'Leaders in industry',
+    title: 'Become the authority in your industry',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      "Get ahead of the competition by leading from their searches.",
   },
   {
     id: 3,
     imgSrc: Subscription,
-    altText: 'Pro Subscription',
-    title: 'Pro Subscription',
+    altText: 'Convert into leads',
+    title: 'Help convert your website visitors into leads',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Natural search results generate natural leads',
   },
   {
     id: 4,
     imgSrc: Support,
-    altText: 'Customer Support',
-    title: 'Customer Support',
+    altText: 'Connect with your target audience',
+    title: 'Connect with your target audience',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Create unique, valuable insights that can only come from you, not your competitors.',
   },
 ];
 
 export default function KeyFeature() {
   return (
-   <h1>Key Feature</h1>
+    <section sx={{ variant: 'section.keyFeature' }} id="feature">
+      <Container>
+        <SectionHeader 
+          slogan="High Quality Returns"
+          title="Achieve these results"
+        />
+
+        <Grid sx={styles.grid}>
+          {data.map((item) => (
+            <FeatureCardColumn
+              key={item.id}
+              src={item.imgSrc}
+              alt={item.altText}
+              title={item.title}
+              text={item.text} 
+            />
+          ))}
+        </Grid>
+      </Container>
+
+    </section>
   );
 }
 

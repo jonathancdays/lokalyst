@@ -9,9 +9,9 @@ export default function Banner() {
   return (
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
-        <Box sex={styles.banner.contentBox}>
+        <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Gain an edge on SEO with our help
+            Gain an edge on SEO with our services
           </Heading>
           <Text as="p" variant="heroSecondary">
             Rise through the ranks of Google with our affordable plans!
@@ -79,7 +79,7 @@ const styles = {
       mb: [0, null, -6, null, null, '-40px', null, -3],
       img: {
         position: 'relative',
-        height: [245, 'auto'],
+        height: [245,  'auto'],
       },
     },
   },
