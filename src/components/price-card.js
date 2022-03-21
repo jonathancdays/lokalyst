@@ -13,7 +13,21 @@ export default function PriceCard({
     points,
   },
 }) {
-  return <h1>PriceCard</h1>;
+  return (
+    <Card
+      className={header ? 'package__card active' : 'package__card'}
+      sx={styles.pricingBox}
+    >
+      {header && <Text sx={styles.header}>{header}</Text>}
+      <Box>
+        <Box className="package__header" sx={styles.pricingHeader}>
+          <Heading className="package__name" variant="title">
+            {name}
+          </Heading>
+        </Box>
+      </Box>
+    </Card>
+  );
 }
 
 const styles = {
