@@ -48,7 +48,7 @@ const packages = {
       name: 'Corporate Plan',
       description: 'For medium-sized business.',
       priceWithUnit: '$2,500',
-      buttonText: 'Create account',
+      buttonText: 'Get a proposal',
       anotherOption: 'Or Start 14 Days trail',
       points: [
         {
@@ -84,7 +84,7 @@ const packages = {
       name: 'Enterprise Plan',
       description: 'For international businesses.',
       priceWithUnit: '$5,000',
-      buttonText: 'Create account',
+      buttonText: 'Get a proposal',
       anotherOption: 'Or Start 14 Days trail',
       points: [
         {
@@ -153,7 +153,7 @@ const packages = {
       name: 'Corporate Plan',
       description: 'For medium-sized business.',
       priceWithUnit: '$2,500',
-      buttonText: 'Create account',
+      buttonText: 'Get a proposal',
       anotherOption: 'Or Start 14 Days trail',
       points: [
         {
@@ -189,7 +189,7 @@ const packages = {
       name: 'Enterprise Plan',
       description: 'For international businesses.',
       priceWithUnit: '$5,000',
-      buttonText: 'Create account',
+      buttonText: 'Get a proposal',
       anotherOption: 'Or Start 14 Days trail',
       points: [
         {

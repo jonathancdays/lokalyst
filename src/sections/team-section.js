@@ -43,8 +43,8 @@ const data = [
   {
     id: 2,
     imgSrc: Member2,
-    altText: 'Aaron Nunez',
-    title: 'Aaron Nunez',
+    altText: 'Aubrey Lyons',
+    title: 'Aubrey Lyons',
     designation: 'Founder',
     socialProfile: [
       {
@@ -70,9 +70,9 @@ const data = [
   {
     id: 3,
     imgSrc: Member3,
-    altText: 'Aaron Nunez',
-    title: 'Aaron Nunez',
-    designation: 'Web Designer',
+    altText: 'Mateo De la Garza',
+    title: 'Mateo De la Garza',
+    designation: 'Director of Global SEO',
     socialProfile: [
       {
         id: 1,
@@ -97,9 +97,9 @@ const data = [
   {
     id: 4,
     imgSrc: Member4,
-    altText: 'Lina Jutila',
-    title: 'Lina Jutila',
-    designation: 'Web Developer',
+    altText: 'Miloslav Kolá',
+    title: 'Miloslav Kolá',
+    designation: 'Lead SEO Specialist',
     socialProfile: [
       {
         id: 1,
@@ -124,9 +124,9 @@ const data = [
   {
     id: 5,
     imgSrc: Member5,
-    altText: 'Saimon Harmer',
-    title: 'Saimon Harmer',
-    designation: 'CEO and Founder',
+    altText: 'Yannis Zenakis',
+    title: 'Yannis Zenakis',
+    designation: 'SEO Specialist',
     socialProfile: [
       {
         id: 1,
@@ -179,7 +179,27 @@ const data = [
 
 export default function TeamSection() {
   return (
-    <h1>Team Section</h1>
+    <section>
+      <Container>
+        <SectionHeader
+          slogan="our team"
+          title="The most qualified and talented individuals you'll ever meet"
+        />
+        <Grid sx={styles.grid}>
+          {data.map((item) => (
+            <TeamCard 
+              key={item.id}
+              src={item.imgSrc}
+              altText={item.altTexr}
+              title={item.title}
+              designation={item.designation}
+              social={item.socialProfile}
+            />
+          ))}
+
+        </Grid>
+      </Container>
+    </section>
   );
 }
 
