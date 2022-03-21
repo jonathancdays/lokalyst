@@ -25,6 +25,7 @@ export default function PriceCard({
             {name}
           </Heading>
         </Box>
+        <List items={points} childStyle={styles.listItem} />
       </Box>
     </Card>
   );
