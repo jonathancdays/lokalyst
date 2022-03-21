@@ -10,33 +10,53 @@ import ArrowEven from 'assets/arrowEven.svg';
 const data = [
   {
     id: 1,
-    title: 'Set disbursement Instructions',
+    title: 'Research',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Identifying a group of keyword phrases that will be used in optimization and analyze target competitor sites.',
   },
   {
     id: 2,
-    title: 'Assembly retrieves funds from your account',
+    title: 'Reporting & Goal Setting',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'After developing a complete picture of your site’s starting position, goals are set for the SEO plan.',
   },
   {
     id: 3,
-    title: 'Assembly initiates disbursement',
+    title: 'Page Optimization',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      "We meticulously pick page titles, a site map, and META data to increase your site's efficiency.",
   },
   {
     id: 4,
-    title: 'Customer receives funds payment',
+    title: 'Follow Up Reporting and Analysis',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'The same reporting done in the initial phase of the campaign is done again at regular intervals, post-optimization.',
   },
 ];
 
 export default function WorkFlow() {
   return (
-    <h1>Workflow</h1>
+    <section sx={styles.workflow}>
+      <Container>
+        <SectionHeader 
+          slogan="Roadmap"
+          title="What's our process?"
+          isWhite={true}
+        />
+        <Grid sx={styles.grid}>
+          {data.map((item) => (
+            <Box sx={styles.card} key={item.id}>
+              <Box sx={styles.iconBox}>{`0${item.id}`}</Box>
+                <Box sx={styles.wrapper}>
+                  <Heading sx={styles.wrapper.title}>{item.title}</Heading>
+                  <Text sx={styles.wrapper.subTitle}>{item.text}</Text>
+                </Box>
+              </Box>
+            ))}
+        </Grid>
+      </Container>
+
+    </section>
   );
 }
 
