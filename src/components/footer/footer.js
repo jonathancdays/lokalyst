@@ -6,7 +6,33 @@ import FooterLogo from 'assets/logo.svg';
 
 export default function Footer() {
   return (
-    <h1>Footer</h1>
+    <footer sx={styles.footer}>
+      <Container>
+        <Box sx={styles.footer.footerBottomArea}>
+          <Link path="/">
+            <Image src={FooterLogo} alt="Logo" />
+          </Link>
+          <Box sx={styles.footer.menus}>
+            <nav>
+              {data.menuItem.map((item) => (
+                <Link 
+                  path={item.path}
+                  key={item.key}
+                  label={item.label}
+                  sx={styles.footer.link}
+                />
+              ))}
+            </nav>
+          </Box>
+          <Text sx={styles.footer.copyright}>
+          Copyright Disclaimer under Section 107 of the copyright act 1976, 
+          allowance is made for fair use for purposes such as criticism, 
+          comment, news reporting, scholarship, and research.
+          </Text>
+        </Box>
+      </Container>
+
+    </footer>
   );
 }
 
