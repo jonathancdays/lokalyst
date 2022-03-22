@@ -13,42 +13,42 @@ import Avatar4 from 'assets/testimonial/avatar4.png';
 const data = [
   {
     id: 1,
-    title: 'Modern look & trending design',
+    title: 'Guranteed Success',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      'The meticulous work done to drive up my organic traffic was well worth the cost',
     avatar: Avatar1,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Brooke Reyes',
+    designation: '@dBrooke.Reyes',
     review: 4,
   },
   {
     id: 2,
-    title: 'Design Quality & performance',
+    title: 'Great team of high performers',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      'I had a huge list of goals I wanted to achieve and they completed every single one.',
     avatar: Avatar2,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Marshall Wells',
+    designation: '@Marshall.Wells',
     review: 5,
   },
   {
     id: 3,
-    title: 'Layout and organized layers',
+    title: 'Very knowledgeable and professional',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      'This field is not my forte but I felt very welcome asking questions and I received straight-forward asnwers.',
     avatar: Avatar3,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Victor Fabela',
+    designation: '@Victor.Fabela',
     review: 5,
   },
   {
     id: 4,
-    title: 'Modern look & trending design',
+    title: 'Almost an overnight change!',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      'The team I worked with hit the pavement running and I saw huge changes almost immediately!.',
     avatar: Avatar4,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Jackson Campbell',
+    designation: '@jackson.campbell',
     review: 4,
   },
 ];
