@@ -33,7 +33,7 @@ export default function Footer() {
             Disclaimer: Under the Fair Use Copyright Act I have taken
             inspiration and my experience from my previous employer to design
             and code a personal project for creative purposes. I do not own any
-            Juix assets.
+            Lokalyst assets.
           </Text>
         </Box>
       </Container>
