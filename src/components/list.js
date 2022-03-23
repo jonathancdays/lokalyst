@@ -6,18 +6,18 @@ export default function List({ items = [], parentStyle, childStyle }) {
     <Box
       as="ul"
       sx={{
-        listStyleType: 'none',
-        margin:0,
+        listStyleType: "none",
+        margin: 0,
         padding: 0,
-        ...parentStyle
+        ...parentStyle,
       }}
     >
       {items.map((item, i) => (
         <Flex
-          className={item.isAvailable ? 'open': 'closed' }
+          className={item.isAvailable ? "open" : "closed"}
           as="li"
-          sx={{ ... childStyle}}
-          key = {i}
+          sx={{ ...childStyle }}
+          key={i}
         >
           <IconButton sx={styles.listIcon} aria-label="list icon">
             {item.icon}
