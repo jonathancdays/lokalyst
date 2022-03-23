@@ -17,12 +17,6 @@ export default function Banner() {
             Rise through the ranks of Google with our affordable plans! With our
             help you'll see web traffic go through the roof!
           </Text>
-          <Text as="p" variant="heroSecondary">
-            Disclaimer: Under the Fair Use Copyright Act I have taken
-            inspiration and my experience from my previous employer to design
-            and code a personal project for creative purposes. I do not own any
-            Juix assets.
-          </Text>
           <Button variant="primary">Free Qoute</Button>
         </Box>
         <Box sx={styles.banner.imageBox}>

@@ -29,6 +29,12 @@ export default function Footer() {
             allowance is made for fair use for purposes such as criticism,
             comment, news reporting, scholarship, and research.
           </Text>
+          <Text sx={styles.footer.copyright}>
+            Disclaimer: Under the Fair Use Copyright Act I have taken
+            inspiration and my experience from my previous employer to design
+            and code a personal project for creative purposes. I do not own any
+            Juix assets.
+          </Text>
         </Box>
       </Container>
     </footer>
