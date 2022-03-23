@@ -1,11 +1,13 @@
 {
   "name": "lokalyst-seo-projet",
   "version": "0.0.1",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
     "postbuild": "next-sitemap"
+  },
+  "engines": {
+    "node": "16.14.0"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
