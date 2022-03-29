@@ -41,8 +41,5 @@
   "cacheDirectories": [
     "node_modules/",
     ".next/cache/"
-  ],
-  "devDependencies": {
-    "@netlify/plugin-nextjs": "^4.3.1"
-  }
+  ]
 }
