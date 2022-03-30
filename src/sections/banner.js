@@ -17,7 +17,7 @@ export default function Banner() {
             Rise through the ranks of Google with our affordable plans! With our
             help you'll see web traffic go through the roof!
           </Text>
-          <Button variant="primary">Free Qoute</Button>
+          <Button variant="primary">Free Quote</Button>
         </Box>
         <Box sx={styles.banner.imageBox}>
           <Image src={BannerImg} alt="banner"></Image>
