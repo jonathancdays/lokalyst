@@ -4970,7 +4970,7 @@ const styles = {
     }
   },
   listItem: {
-    fontFamily: "DM Sans",
+    fontFamily: "Varela Round",
     fontStyle: "normal",
     fontWeight: "normal",
     fontSize: [1, 2],
@@ -8289,8 +8289,8 @@ __webpack_require__.r(__webpack_exports__);
   },
   breakpoints: ['480px', '640px', '768px', '1024px', '1220px', '1366px', '1620px'],
   fonts: {
-    body: "'DM Sans', sans-serif",
-    heading: "'DM Sans', sans-serif"
+    body: "'Varela Round', sans-serif",
+    heading: "'Varela Round', sans-serif"
   },
   fontSizes: [12, 15, 16, 18, 20, 22, 24, 28, 32, 36, 42, 48, 52, 64],
   fontWeights: {
@@ -8417,7 +8417,7 @@ __webpack_require__.r(__webpack_exports__);
     },
     lead: {
       fontSize: 40,
-      fontFamily: 'DM Sans',
+      fontFamily: 'Varela Round',
       fontWeight: '500',
       lineHeight: '60px',
       letterSpacing: '-1.5px',
