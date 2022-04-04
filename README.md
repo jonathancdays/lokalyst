@@ -1,1 +1,1 @@
-## Lokalyst SEO Personal Project
+## SEO Personal Project
