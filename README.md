@@ -210,7 +210,7 @@ Jonathan Days - jonathancdays@gmail.com
 
 Linkedin - https://www.linkedin.com/in/johndays/
 
-Project Link: [https://github.com/JelaniDays/professional_review_site](https://github.com/JelaniDays/professional_review_site)
+Project Link: [https://jonathan-days-seo-site-project.netlify.app/](https://jonathan-days-seo-site-project.netlify.app/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
