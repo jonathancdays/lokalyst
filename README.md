@@ -21,7 +21,7 @@
   <p align="center">
  I have taken inspiration and my experience from my previous employer to design and code a personal project for creative purposes. I do not own any Lokalyst assets.
     <br> 
-    <a href="[https://jonathan-days-networking-site-project.netlify.app/](https://jonathan-days-seo-site-project.netlify.app/)"><strong>View Live Site »</strong></a>
+    <a href="https://jonathan-days-seo-site-project.netlify.app/"><strong>View Live Site »</strong></a>
     <br />
     <br />
     ·
