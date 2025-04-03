@@ -25,11 +25,11 @@
     <br />
     <br />
     ·
-    <a href="https://www.jonathancdays.com/projects/seo-graphic-design.html">View Print Graphics</a>
+    <a href="https://www.behance.net/gallery/154552617/Lokalyst-Graphic-Design">View Print Graphics</a>
     .
     <a href="https://www.figma.com/proto/5Q7AzzdviT9H3Xi5JvcpQX/Lokalyst?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1">View UX & UI </a>
     ·
-    <a href="https://www.jonathancdays.com/projects/seo-branding.html">View Brand Design</a> 
+    <a href="https://www.behance.net/gallery/154553183/Lokalyst-Brand-Guide-Lines">View Brand Design</a> 
   </p>
 </div>
 
