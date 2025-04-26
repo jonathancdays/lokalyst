@@ -12,7 +12,7 @@
 
 <br />
 <div align="center">
-  <a href="https://jonathan-days-networking-site-project.netlify.app/">
+  <a href="https://jonathan-days-seo-site-project.netlify.app/">
     <img src="src/assets/logo.svg" alt="Logo" width="400" height="400">
   </a>
 
